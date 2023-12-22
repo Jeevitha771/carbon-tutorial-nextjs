@@ -50,10 +50,7 @@
   "lint-staged": {
     "*.js": [
       "prettier --cache --write",
-<<<<<<< HEAD
-=======
       "eslint",
->>>>>>> v11-next-step-2
       "git add"
     ],
     "*.{scss,css}": [
