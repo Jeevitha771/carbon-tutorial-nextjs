@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Image from 'next/image';
 import styles from './page.module.css';
 
@@ -93,3 +94,10 @@ export default function Home() {
     </main>
   );
 }
+=======
+import LandingPage from './home/page';
+
+export default function Page() {
+    return <LandingPage />;
+  }
+>>>>>>> v11-next-step-2
